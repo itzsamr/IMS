@@ -23,3 +23,22 @@ Clone the repository:
 git clone https://github.com/itzsamr/IMS.git
 cd IMS
 ```
+Set up the Python environment (optional but recommended):
+
+```bash
+python -m venv venv
+source venv/bin/activate   # On Windows use `venv\Scripts\activate`
+```
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+Usage
+Run the application:
+
+```bash
+python main.py
+```
+Interact with the system:
+Follow the console prompts to create, retrieve, update, and delete policies.
